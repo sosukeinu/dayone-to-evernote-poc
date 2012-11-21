@@ -201,27 +201,7 @@ for filename in os.listdir(filepath):
             dotimezone = result["Time Zone"]
         else:
             dotimezone = ""
-
-        # print docreationdate
-        # print donotecontent
-        # if 'dostarred' in locals():
-        #   print dostarred
-        # else:
-        #   pass
-        # print dofilename
-        # if 'weather' in locals():
-        #   print dotempcel
-        #   print doweatherdesc
-        #   print dotempfah
-        # else:
-        #   pass
-        # if 'location' in locals():
-        #   print dolocarea
-        #   print doloccountry
-        #   print doloccity
-        # else:
-        #   pass
-        
+            
         #create an email
             # SEND TO var enmail
 
